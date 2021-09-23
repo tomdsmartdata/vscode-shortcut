@@ -1,4 +1,6 @@
 # Shortcut extension for Visual Studio Code
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=tomdsmartdata_vscode-shortcut&metric=alert_status)](https://sonarcloud.io/dashboard?id=tomdsmartdata_vscode-shortcut)  
+
 
 A [Visual Studio Code](https://code.visualstudio.com/) [extension](https://marketplace.visualstudio.com/VSCode) with support for interracting with the project management site, [Shortcut](https://shortcut.com/). The plugin includes features such as IntelliSense (story numbers), a task pane, automatic branch creation (if using git helpers), and more!
 
