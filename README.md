@@ -1,6 +1,6 @@
-# vscode-shortcut README
+# Shortcut extension for Visual Studio Code
 
-This is the README for your extension "vscode-shortcut". After writing up a brief description, we recommend including the following sections.
+A [Visual Studio Code](https://code.visualstudio.com/) [extension](https://marketplace.visualstudio.com/VSCode) with support for interracting with the project management site, [Shortcut](https://shortcut.com/). The plugin includes features such as IntelliSense (story numbers), a task pane, automatic branch creation (if using git helpers), and more!
 
 ## Features
 

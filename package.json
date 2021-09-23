@@ -1,6 +1,6 @@
 {
   "name": "vscode-shortcut",
-	"displayName": "Shortcut",
+	"displayName": "Shortcut Project Management",
 	"description": "Provides in editor interraction with project management tool https://app.shortcut.com.",
 	"version": "0.0.1",
 	"engines": {
