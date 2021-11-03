@@ -14,12 +14,30 @@
   ],
   "main": "./dist/extension.js",
   "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "shortcut-explorer",
+          "title": "Shortcut",
+          "icon": "resources/Shortcut_mark_white.svg"
+        }
+      ]
+    },
     "commands": [
       {
         "command": "vscode-shortcut.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "views": {
+      "shortcut-explorer": [
+        {
+          "id": "shortcut-explorer-view",
+          "name": "Shortcut Explorer",
+          "contextualTitle": "Shortcut Explorer"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
