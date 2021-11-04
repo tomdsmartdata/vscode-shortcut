@@ -10,7 +10,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:vscode-shortcut.helloWorld"
+    "onStartupFinished"
   ],
   "main": "./dist/extension.js",
   "contributes": {
@@ -26,7 +26,11 @@
     "commands": [
       {
         "command": "vscode-shortcut.helloWorld",
-        "title": "Hello World"
+        "title": "Shortcut: Hello World"
+      },
+      {
+        "command": "vscode-shortcut.configureToken",
+        "title": "Shortcut: Configure API Token"
       }
     ],
     "views": {
