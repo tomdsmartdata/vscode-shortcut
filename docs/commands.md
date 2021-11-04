@@ -1,3 +1,6 @@
+<!-- layout: page
+title: "Shortcut for VSCode: Commands"
+permalink: /commands -->
 # Extension Commands
 
 ## Configure API Token
