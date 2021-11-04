@@ -45,7 +45,7 @@
     "viewsWelcome": [
       {
         "view": "shortcut-explorer-view",
-        "contents": "No data retrieved from app.shortcut.com.\n If you need to configure your API Token, you can do so [here](https://tomdsmartdata.github.io/vscode-shortcut/commands).\n[Configure Token](command:vscode-shortcut.configureToken)"
+        "contents": "No data retrieved from app.shortcut.com.\n If you need to configure your API Token, you can do so [here](https://tomdsmartdata.github.io/vscode-shortcut/commands#configure-api-token).\n[Configure Token](command:vscode-shortcut.configureToken)"
       }
     ]
   },
