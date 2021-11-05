@@ -11,8 +11,8 @@ export function registerCommands(context: vscode.ExtensionContext): void {
     context.subscriptions.push(helloDisposable);
 
     // register the command to persist a user's Shortcut API token
-    let configureTokenDisposable = commands.registerCommand('vscode-shortcut.configureToken', () => {
-        configureToken(context);
+    let configureTokenDisposable = commands.registerCommand('vscode-shortcut.configureToken', async () => {
+        await configureToken(context);
     });
     context.subscriptions.push(configureTokenDisposable);
 }
