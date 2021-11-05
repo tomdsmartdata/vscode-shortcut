@@ -1,6 +1,6 @@
 import { window, SecretStorage, ExtensionContext } from "vscode";
 
-const SHOTCUT_API_TOKEN = 'Shortcut.Api.Token';
+export const SHORTCUT_API_TOKEN = 'Shortcut.Api.Token';
 
 export async function configureToken(context: ExtensionContext): Promise<void> {
     const shortcutToken = await window.showInputBox({
@@ -12,7 +12,7 @@ export async function configureToken(context: ExtensionContext): Promise<void> {
         return;
     }
     try {
-    context.secrets.store(SHOTCUT_API_TOKEN, shortcutToken);
+    context.secrets.store(SHORTCUT_API_TOKEN, shortcutToken);
     } catch(e) {
         console.error(e);
         window.showErrorMessage('Failed to store Shortcut API Token');
